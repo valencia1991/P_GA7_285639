@@ -1,0 +1,70 @@
+/* esto es comentario en css */
+/*selector{
+    propiedad:valor;
+} */
+
+/* Fondo general */
+
+       /* Fondo general oscuro */
+ 
+/* Fondo general oscuro */
+
+body {
+    background-color: #000000; /* Cambiado a negro */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la tarjeta del formulario */
+.card {
+    background-color: #FFFFFF; /* Cambiado a blanco */
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Encabezado */
+.card-header {
+    background-color: #495057;
+    border-bottom: 1px solid #ced4da;
+    color: white;
+}
+
+/* Cuerpo del formulario */
+.card-body {
+    padding: 30px;
+}
+
+/* Inputs y selects */
+.form-control {
+    background-color: #FFFFFF; /* Cambiado a blanco */
+    border: 1px solid #ced4da;
+    color: #212529;
+    margin-bottom: 15px;
+}
+
+/* Botón */
+.btn-info {
+    background-color: #00CED1; /* Cambiado a turquesa */
+    border: none;
+    font-weight: bold;
+}
+
+.btn-info:hover {
+    background-color: #008B8B; /* Turquesa más oscuro al pasar el ratón */
+}
+
+/* Pie del formulario */
+.card-footer {
+    background-color: #495057;
+    border-top: 1px solid #ced4da;
+}
+
+.card-footer a {
+    color: #00CED1; /* Cambiado a turquesa */
+    text-decoration: none;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}

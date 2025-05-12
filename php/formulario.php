@@ -14,8 +14,7 @@
                 <h5>FORMULARIO PARA EL REGISTRO DE PACIENTES</h5>
             </div>
             <div class="card-body">
-                <form action="" id="form" class="form-horizontal">
-                    <input type="hidden" name="tipo_operacion" value="guardar">
+                <form action="guardar_paciente.php" id="form" class="form-horizontal" method="POST">                    <input type="hidden" name="tipo_operacion" value="guardar">
                     
                     <!-- Tipo de documento -->
                     <div class="form-group">
